@@ -1,5 +1,10 @@
 # chackr-ui-001-first-example
 
+## Stack:
+
+- Next.js como um framework React;
+- Chakra UI como biblioteca de componentes React;
+
 ## Notes:
 
 - Link:
