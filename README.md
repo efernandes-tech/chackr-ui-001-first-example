@@ -19,3 +19,9 @@ yarn dev
 ```
 yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
 ```
+
+- Criando o nosso primeiro componente com Chakra UI
+
+```
+yarn add react-icons
+```
