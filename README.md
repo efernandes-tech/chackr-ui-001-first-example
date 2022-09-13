@@ -13,3 +13,9 @@ yarn create next-app light-dark-mode-chakraui --ts
 cd light-dark-mode-chakraui
 yarn dev
 ```
+
+- Instalando e conectando Chakra UI ao projeto
+
+```
+yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+```
