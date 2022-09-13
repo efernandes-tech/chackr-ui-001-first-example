@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import { ToogleThemeButton } from '../components/ToogleThemeButton'
 
@@ -15,7 +15,21 @@ const Home: NextPage = () => {
       align="center"
       // Alinhamento horizontal do container
       justify="center"
+      // Direção do container
+      flexDirection="column"
     >
+      <Text
+        // Essa cor vem direto do nosso tema
+        color="success.700"
+        // Tamanho da fonte
+        fontSize="4xl"
+        // Peso da fonte
+        fontWeight="bold"
+        // Alinhamento da fonte
+        textAlign="center"
+      >
+        Botão para mudar tema da aplicação
+      </Text>
       <ToogleThemeButton />
     </Flex>
   )
