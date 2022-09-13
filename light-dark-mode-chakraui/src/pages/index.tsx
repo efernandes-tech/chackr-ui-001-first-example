@@ -1,5 +1,6 @@
 import { Flex, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import Link from 'next/link'
 import { ToogleThemeButton } from '../components/ToogleThemeButton'
 
 const Home: NextPage = () => {
@@ -28,11 +29,18 @@ const Home: NextPage = () => {
         // Alinhamento da fonte
         textAlign="center"
       >
-        Botão para mudar tema da aplicação
+        Botão para mudar tema da aplicação na Home
       </Text>
       <ToogleThemeButton />
+      {/* 👇🏽 por questòes de acessibilidade e SEO */}
+      <Link href="/page2">
+        <a>
+          Ir para a página 2
+        </a>
+      </Link>
+      {/* ☝🏽 devemos envolver o elemento filho do componente Link em uma tag 'a' */}
     </Flex>
   )
 }
 
-export default Home
+export default Home;
